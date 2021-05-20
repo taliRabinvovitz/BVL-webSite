@@ -1,0 +1,7 @@
+1. calculate the age of each person based on the current ageadd to the DB a column of year of birth and calculate current year - year birth = real age
+2. update contact phone
+3. add option to update person detailes (internal only)
+4. Add option to delete person (internal only)
+5. add option to add person (intrnal only)
+6. update DB with new Averchim list
+
