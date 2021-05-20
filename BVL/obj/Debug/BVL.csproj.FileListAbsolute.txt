@@ -252,3 +252,37 @@ C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL
 C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\obj\Debug\BVL.csproj.CopyComplete
 C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\obj\Debug\BVL.dll
 C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\obj\Debug\BVL.pdb
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\bin\BVL.dll.config
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\bin\BVL.dll
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\bin\BVL.pdb
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\bin\he\BVL.resources.dll
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\bin\EntityFramework.dll
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\bin\EntityFramework.SqlServer.dll
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\bin\System.Web.Helpers.dll
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\bin\System.Web.Mvc.dll
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\bin\System.Web.Razor.dll
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\bin\System.Web.Webpages.dll
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\bin\System.Web.Webpages.Razor.dll
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\bin\EntityFramework.xml
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\bin\EntityFramework.SqlServer.xml
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\bin\System.Web.Razor.xml
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\bin\System.Web.Webpages.xml
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\bin\System.Web.Webpages.Razor.xml
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\bin\System.Web.Helpers.xml
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\bin\System.Web.Mvc.xml
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\obj\Debug\BVL.csprojAssemblyReference.cache
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\obj\Debug\BVL.Resource.RBeitVaad.resources
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\obj\Debug\BVL.Resource.RHome.resources
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\obj\Debug\BVL.Resource.RAbout.resources
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\obj\Debug\BVL.Resource.RBeitVaad.he.resources
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\obj\Debug\BVL.Resource.RHome.he.resources
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\obj\Debug\BVL.Resource.RAbout.he.resources
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\obj\Debug\BVL.csproj.GenerateResource.cache
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\obj\Debug\BVL.csproj.CoreCompileInputs.cache
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\obj\Debug\he\BVL.resources.dll
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\obj\Debug\BVL.csproj.CopyComplete
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\obj\Debug\BVL.dll
+C:\Users\Tali Rabinovitz\Desktop\kollel\BVL-webSite\BVL\obj\Debug\BVL.pdb
