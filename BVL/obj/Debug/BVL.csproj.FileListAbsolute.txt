@@ -1,0 +1,254 @@
+D:\user\desktop\BVL\BVL\bin\BVL.dll.config
+D:\user\desktop\BVL\BVL\bin\BVL.dll
+D:\user\desktop\BVL\BVL\bin\BVL.pdb
+D:\user\desktop\BVL\BVL\bin\he\BVL.resources.dll
+D:\user\desktop\BVL\BVL\bin\System.Web.Helpers.dll
+D:\user\desktop\BVL\BVL\bin\System.Web.Mvc.dll
+D:\user\desktop\BVL\BVL\bin\System.Web.Razor.dll
+D:\user\desktop\BVL\BVL\bin\System.Web.Webpages.Deployment.dll
+D:\user\desktop\BVL\BVL\bin\System.Web.Webpages.dll
+D:\user\desktop\BVL\BVL\bin\System.Web.Webpages.Razor.dll
+D:\user\desktop\BVL\BVL\bin\System.Web.Razor.xml
+D:\user\desktop\BVL\BVL\bin\System.Web.Webpages.xml
+D:\user\desktop\BVL\BVL\bin\System.Web.Webpages.Deployment.xml
+D:\user\desktop\BVL\BVL\bin\System.Web.Webpages.Razor.xml
+D:\user\desktop\BVL\BVL\bin\System.Web.Helpers.xml
+D:\user\desktop\BVL\BVL\bin\System.Web.Mvc.xml
+D:\user\desktop\BVL\BVL\obj\Debug\BVL.Resource.RHome.resources
+D:\user\desktop\BVL\BVL\obj\Debug\BVL.Resource.RHome.he.resources
+D:\user\desktop\BVL\BVL\obj\Debug\BVL.csproj.GenerateResource.Cache
+D:\user\desktop\BVL\BVL\obj\Debug\he\BVL.resources.dll
+D:\user\desktop\BVL\BVL\obj\Debug\BVL.dll
+D:\user\desktop\BVL\BVL\obj\Debug\BVL.pdb
+D:\user\desktop\BVL\BVL\obj\Debug\BVL.Resource.RAbout.resources
+D:\user\desktop\BVL\BVL\obj\Debug\BVL.Resource.RAbout.he.resources
+D:\user\desktop\BVL\BVL\obj\Debug\BVL.csprojResolveAssemblyReference.cache
+D:\user\desktop\BVL\BVL\bin\EntityFramework.dll
+D:\user\desktop\BVL\BVL\bin\EntityFramework.SqlServer.dll
+D:\user\desktop\BVL\BVL\bin\EntityFramework.xml
+D:\user\desktop\BVL\BVL\bin\EntityFramework.SqlServer.xml
+D:\user\desktop\BVL\BVL\obj\Debug\BVL.Resource.RBeitVaad.resources
+D:\user\desktop\BVL\BVL\obj\Debug\BVL.Resource.RBeitVaad.he.resources
+D:\user\desktop\שיפי\BVL\BVL\bin\BVL.dll.config
+D:\user\desktop\שיפי\BVL\BVL\bin\BVL.dll
+D:\user\desktop\שיפי\BVL\BVL\bin\BVL.pdb
+D:\user\desktop\שיפי\BVL\BVL\bin\he\BVL.resources.dll
+D:\user\desktop\שיפי\BVL\BVL\bin\EntityFramework.dll
+D:\user\desktop\שיפי\BVL\BVL\bin\EntityFramework.SqlServer.dll
+D:\user\desktop\שיפי\BVL\BVL\bin\System.Web.Helpers.dll
+D:\user\desktop\שיפי\BVL\BVL\bin\System.Web.Mvc.dll
+D:\user\desktop\שיפי\BVL\BVL\bin\System.Web.Razor.dll
+D:\user\desktop\שיפי\BVL\BVL\bin\System.Web.Webpages.Deployment.dll
+D:\user\desktop\שיפי\BVL\BVL\bin\System.Web.Webpages.dll
+D:\user\desktop\שיפי\BVL\BVL\bin\System.Web.Webpages.Razor.dll
+D:\user\desktop\שיפי\BVL\BVL\bin\EntityFramework.xml
+D:\user\desktop\שיפי\BVL\BVL\bin\EntityFramework.SqlServer.xml
+D:\user\desktop\שיפי\BVL\BVL\bin\System.Web.Razor.xml
+D:\user\desktop\שיפי\BVL\BVL\bin\System.Web.Webpages.xml
+D:\user\desktop\שיפי\BVL\BVL\bin\System.Web.Webpages.Deployment.xml
+D:\user\desktop\שיפי\BVL\BVL\bin\System.Web.Webpages.Razor.xml
+D:\user\desktop\שיפי\BVL\BVL\bin\System.Web.Helpers.xml
+D:\user\desktop\שיפי\BVL\BVL\bin\System.Web.Mvc.xml
+D:\user\desktop\שיפי\BVL\BVL\obj\Debug\BVL.Resource.RBeitVaad.resources
+D:\user\desktop\שיפי\BVL\BVL\obj\Debug\BVL.Resource.RHome.resources
+D:\user\desktop\שיפי\BVL\BVL\obj\Debug\BVL.Resource.RAbout.resources
+D:\user\desktop\שיפי\BVL\BVL\obj\Debug\BVL.Resource.RBeitVaad.he.resources
+D:\user\desktop\שיפי\BVL\BVL\obj\Debug\BVL.Resource.RHome.he.resources
+D:\user\desktop\שיפי\BVL\BVL\obj\Debug\BVL.Resource.RAbout.he.resources
+D:\user\desktop\שיפי\BVL\BVL\obj\Debug\BVL.csproj.GenerateResource.Cache
+D:\user\desktop\שיפי\BVL\BVL\obj\Debug\he\BVL.resources.dll
+D:\user\desktop\שיפי\BVL\BVL\obj\Debug\BVL.dll
+D:\user\desktop\שיפי\BVL\BVL\obj\Debug\BVL.pdb
+D:\user\desktop\שיפי\BVL\BVL\obj\Debug\BVL.csprojResolveAssemblyReference.cache
+G:\BVL\BVL\bin\BVL.dll.config
+G:\BVL\BVL\bin\BVL.dll
+G:\BVL\BVL\bin\BVL.pdb
+G:\BVL\BVL\bin\he\BVL.resources.dll
+G:\BVL\BVL\bin\EntityFramework.dll
+G:\BVL\BVL\bin\EntityFramework.SqlServer.dll
+G:\BVL\BVL\bin\System.Web.Helpers.dll
+G:\BVL\BVL\bin\System.Web.Mvc.dll
+G:\BVL\BVL\bin\System.Web.Razor.dll
+G:\BVL\BVL\bin\System.Web.Webpages.Deployment.dll
+G:\BVL\BVL\bin\System.Web.Webpages.dll
+G:\BVL\BVL\bin\System.Web.Webpages.Razor.dll
+G:\BVL\BVL\bin\EntityFramework.xml
+G:\BVL\BVL\bin\EntityFramework.SqlServer.xml
+G:\BVL\BVL\bin\System.Web.Razor.xml
+G:\BVL\BVL\bin\System.Web.Webpages.xml
+G:\BVL\BVL\bin\System.Web.Webpages.Deployment.xml
+G:\BVL\BVL\bin\System.Web.Webpages.Razor.xml
+G:\BVL\BVL\bin\System.Web.Helpers.xml
+G:\BVL\BVL\bin\System.Web.Mvc.xml
+G:\BVL\BVL\obj\Debug\BVL.csprojResolveAssemblyReference.cache
+G:\BVL\BVL\obj\Debug\BVL.Resource.RBeitVaad.resources
+G:\BVL\BVL\obj\Debug\BVL.Resource.RHome.resources
+G:\BVL\BVL\obj\Debug\BVL.Resource.RAbout.resources
+G:\BVL\BVL\obj\Debug\BVL.Resource.RBeitVaad.he.resources
+G:\BVL\BVL\obj\Debug\BVL.Resource.RHome.he.resources
+G:\BVL\BVL\obj\Debug\BVL.Resource.RAbout.he.resources
+G:\BVL\BVL\obj\Debug\BVL.csproj.GenerateResource.Cache
+G:\BVL\BVL\obj\Debug\he\BVL.resources.dll
+G:\BVL\BVL\obj\Debug\BVL.dll
+G:\BVL\BVL\obj\Debug\BVL.pdb
+C:\Users\shiffi\Desktop\BVL\BVL\bin\BVL.dll.config
+C:\Users\shiffi\Desktop\BVL\BVL\bin\BVL.dll
+C:\Users\shiffi\Desktop\BVL\BVL\bin\BVL.pdb
+C:\Users\shiffi\Desktop\BVL\BVL\bin\he\BVL.resources.dll
+C:\Users\shiffi\Desktop\BVL\BVL\bin\EntityFramework.dll
+C:\Users\shiffi\Desktop\BVL\BVL\bin\EntityFramework.SqlServer.dll
+C:\Users\shiffi\Desktop\BVL\BVL\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\shiffi\Desktop\BVL\BVL\bin\System.Web.Helpers.dll
+C:\Users\shiffi\Desktop\BVL\BVL\bin\System.Web.Mvc.dll
+C:\Users\shiffi\Desktop\BVL\BVL\bin\System.Web.Razor.dll
+C:\Users\shiffi\Desktop\BVL\BVL\bin\System.Web.Webpages.Deployment.dll
+C:\Users\shiffi\Desktop\BVL\BVL\bin\System.Web.Webpages.dll
+C:\Users\shiffi\Desktop\BVL\BVL\bin\System.Web.Webpages.Razor.dll
+C:\Users\shiffi\Desktop\BVL\BVL\bin\EntityFramework.xml
+C:\Users\shiffi\Desktop\BVL\BVL\bin\EntityFramework.SqlServer.xml
+C:\Users\shiffi\Desktop\BVL\BVL\bin\System.Web.Razor.xml
+C:\Users\shiffi\Desktop\BVL\BVL\bin\System.Web.Webpages.xml
+C:\Users\shiffi\Desktop\BVL\BVL\bin\System.Web.Webpages.Deployment.xml
+C:\Users\shiffi\Desktop\BVL\BVL\bin\System.Web.Webpages.Razor.xml
+C:\Users\shiffi\Desktop\BVL\BVL\bin\System.Web.Helpers.xml
+C:\Users\shiffi\Desktop\BVL\BVL\bin\System.Web.Mvc.xml
+C:\Users\shiffi\Desktop\BVL\BVL\obj\Debug\BVL.csprojResolveAssemblyReference.cache
+C:\Users\shiffi\Desktop\BVL\BVL\obj\Debug\BVL.Resource.RBeitVaad.resources
+C:\Users\shiffi\Desktop\BVL\BVL\obj\Debug\BVL.Resource.RHome.resources
+C:\Users\shiffi\Desktop\BVL\BVL\obj\Debug\BVL.Resource.RAbout.resources
+C:\Users\shiffi\Desktop\BVL\BVL\obj\Debug\BVL.Resource.RBeitVaad.he.resources
+C:\Users\shiffi\Desktop\BVL\BVL\obj\Debug\BVL.Resource.RHome.he.resources
+C:\Users\shiffi\Desktop\BVL\BVL\obj\Debug\BVL.Resource.RAbout.he.resources
+C:\Users\shiffi\Desktop\BVL\BVL\obj\Debug\BVL.csproj.GenerateResource.Cache
+C:\Users\shiffi\Desktop\BVL\BVL\obj\Debug\he\BVL.resources.dll
+C:\Users\shiffi\Desktop\BVL\BVL\obj\Debug\BVL.dll
+C:\Users\shiffi\Desktop\BVL\BVL\obj\Debug\BVL.pdb
+C:\Users\shiffi\Desktop\BVLl\BVL\bin\BVL.dll.config
+C:\Users\shiffi\Desktop\BVLl\BVL\bin\BVL.dll
+C:\Users\shiffi\Desktop\BVLl\BVL\bin\BVL.pdb
+C:\Users\shiffi\Desktop\BVLl\BVL\bin\he\BVL.resources.dll
+C:\Users\shiffi\Desktop\BVLl\BVL\bin\EntityFramework.dll
+C:\Users\shiffi\Desktop\BVLl\BVL\bin\EntityFramework.SqlServer.dll
+C:\Users\shiffi\Desktop\BVLl\BVL\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\shiffi\Desktop\BVLl\BVL\bin\System.Web.Helpers.dll
+C:\Users\shiffi\Desktop\BVLl\BVL\bin\System.Web.Mvc.dll
+C:\Users\shiffi\Desktop\BVLl\BVL\bin\System.Web.Razor.dll
+C:\Users\shiffi\Desktop\BVLl\BVL\bin\System.Web.Webpages.Deployment.dll
+C:\Users\shiffi\Desktop\BVLl\BVL\bin\System.Web.Webpages.dll
+C:\Users\shiffi\Desktop\BVLl\BVL\bin\System.Web.Webpages.Razor.dll
+C:\Users\shiffi\Desktop\BVLl\BVL\bin\EntityFramework.xml
+C:\Users\shiffi\Desktop\BVLl\BVL\bin\EntityFramework.SqlServer.xml
+C:\Users\shiffi\Desktop\BVLl\BVL\bin\System.Web.Razor.xml
+C:\Users\shiffi\Desktop\BVLl\BVL\bin\System.Web.Webpages.xml
+C:\Users\shiffi\Desktop\BVLl\BVL\bin\System.Web.Webpages.Deployment.xml
+C:\Users\shiffi\Desktop\BVLl\BVL\bin\System.Web.Webpages.Razor.xml
+C:\Users\shiffi\Desktop\BVLl\BVL\bin\System.Web.Helpers.xml
+C:\Users\shiffi\Desktop\BVLl\BVL\bin\System.Web.Mvc.xml
+C:\Users\shiffi\Desktop\BVLl\BVL\obj\Debug\BVL.csprojResolveAssemblyReference.cache
+C:\Users\shiffi\Desktop\BVLl\BVL\obj\Debug\BVL.Resource.RBeitVaad.resources
+C:\Users\shiffi\Desktop\BVLl\BVL\obj\Debug\BVL.Resource.RHome.resources
+C:\Users\shiffi\Desktop\BVLl\BVL\obj\Debug\BVL.Resource.RAbout.resources
+C:\Users\shiffi\Desktop\BVLl\BVL\obj\Debug\BVL.Resource.RBeitVaad.he.resources
+C:\Users\shiffi\Desktop\BVLl\BVL\obj\Debug\BVL.Resource.RHome.he.resources
+C:\Users\shiffi\Desktop\BVLl\BVL\obj\Debug\BVL.Resource.RAbout.he.resources
+C:\Users\shiffi\Desktop\BVLl\BVL\obj\Debug\BVL.csproj.GenerateResource.Cache
+C:\Users\shiffi\Desktop\BVLl\BVL\obj\Debug\he\BVL.resources.dll
+C:\Users\shiffi\Desktop\BVLl\BVL\obj\Debug\BVL.dll
+C:\Users\shiffi\Desktop\BVLl\BVL\obj\Debug\BVL.pdb
+F:\BVLl\BVL\bin\BVL.dll.config
+F:\BVLl\BVL\bin\BVL.dll
+F:\BVLl\BVL\bin\BVL.pdb
+F:\BVLl\BVL\bin\he\BVL.resources.dll
+F:\BVLl\BVL\bin\EntityFramework.dll
+F:\BVLl\BVL\bin\EntityFramework.SqlServer.dll
+F:\BVLl\BVL\bin\System.Web.Helpers.dll
+F:\BVLl\BVL\bin\System.Web.Mvc.dll
+F:\BVLl\BVL\bin\System.Web.Razor.dll
+F:\BVLl\BVL\bin\System.Web.Webpages.Deployment.dll
+F:\BVLl\BVL\bin\System.Web.Webpages.dll
+F:\BVLl\BVL\bin\System.Web.Webpages.Razor.dll
+F:\BVLl\BVL\bin\EntityFramework.xml
+F:\BVLl\BVL\bin\EntityFramework.SqlServer.xml
+F:\BVLl\BVL\bin\System.Web.Razor.xml
+F:\BVLl\BVL\bin\System.Web.Webpages.xml
+F:\BVLl\BVL\bin\System.Web.Webpages.Deployment.xml
+F:\BVLl\BVL\bin\System.Web.Webpages.Razor.xml
+F:\BVLl\BVL\bin\System.Web.Helpers.xml
+F:\BVLl\BVL\bin\System.Web.Mvc.xml
+F:\BVLl\BVL\obj\Debug\BVL.csprojResolveAssemblyReference.cache
+F:\BVLl\BVL\obj\Debug\BVL.Resource.RBeitVaad.resources
+F:\BVLl\BVL\obj\Debug\BVL.Resource.RHome.resources
+F:\BVLl\BVL\obj\Debug\BVL.Resource.RAbout.resources
+F:\BVLl\BVL\obj\Debug\BVL.Resource.RBeitVaad.he.resources
+F:\BVLl\BVL\obj\Debug\BVL.Resource.RHome.he.resources
+F:\BVLl\BVL\obj\Debug\BVL.Resource.RAbout.he.resources
+F:\BVLl\BVL\obj\Debug\BVL.csproj.GenerateResource.Cache
+F:\BVLl\BVL\obj\Debug\he\BVL.resources.dll
+F:\BVLl\BVL\obj\Debug\BVL.dll
+F:\BVLl\BVL\obj\Debug\BVL.pdb
+C:\Users\ayalashx\Desktop\BVL\BVL\bin\BVL.dll.config
+C:\Users\ayalashx\Desktop\BVL\BVL\bin\BVL.dll
+C:\Users\ayalashx\Desktop\BVL\BVL\bin\BVL.pdb
+C:\Users\ayalashx\Desktop\BVL\BVL\bin\he\BVL.resources.dll
+C:\Users\ayalashx\Desktop\BVL\BVL\bin\EntityFramework.dll
+C:\Users\ayalashx\Desktop\BVL\BVL\bin\EntityFramework.SqlServer.dll
+C:\Users\ayalashx\Desktop\BVL\BVL\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ayalashx\Desktop\BVL\BVL\bin\System.Web.Helpers.dll
+C:\Users\ayalashx\Desktop\BVL\BVL\bin\System.Web.Mvc.dll
+C:\Users\ayalashx\Desktop\BVL\BVL\bin\System.Web.Razor.dll
+C:\Users\ayalashx\Desktop\BVL\BVL\bin\System.Web.Webpages.Deployment.dll
+C:\Users\ayalashx\Desktop\BVL\BVL\bin\System.Web.Webpages.dll
+C:\Users\ayalashx\Desktop\BVL\BVL\bin\System.Web.Webpages.Razor.dll
+C:\Users\ayalashx\Desktop\BVL\BVL\bin\EntityFramework.xml
+C:\Users\ayalashx\Desktop\BVL\BVL\bin\EntityFramework.SqlServer.xml
+C:\Users\ayalashx\Desktop\BVL\BVL\bin\System.Web.Razor.xml
+C:\Users\ayalashx\Desktop\BVL\BVL\bin\System.Web.Webpages.xml
+C:\Users\ayalashx\Desktop\BVL\BVL\bin\System.Web.Webpages.Deployment.xml
+C:\Users\ayalashx\Desktop\BVL\BVL\bin\System.Web.Webpages.Razor.xml
+C:\Users\ayalashx\Desktop\BVL\BVL\bin\System.Web.Helpers.xml
+C:\Users\ayalashx\Desktop\BVL\BVL\bin\System.Web.Mvc.xml
+C:\Users\ayalashx\Desktop\BVL\BVL\obj\Debug\BVL.csprojResolveAssemblyReference.cache
+C:\Users\ayalashx\Desktop\BVL\BVL\obj\Debug\BVL.Resource.RBeitVaad.resources
+C:\Users\ayalashx\Desktop\BVL\BVL\obj\Debug\BVL.Resource.RHome.resources
+C:\Users\ayalashx\Desktop\BVL\BVL\obj\Debug\BVL.Resource.RAbout.resources
+C:\Users\ayalashx\Desktop\BVL\BVL\obj\Debug\BVL.Resource.RBeitVaad.he.resources
+C:\Users\ayalashx\Desktop\BVL\BVL\obj\Debug\BVL.Resource.RHome.he.resources
+C:\Users\ayalashx\Desktop\BVL\BVL\obj\Debug\BVL.Resource.RAbout.he.resources
+C:\Users\ayalashx\Desktop\BVL\BVL\obj\Debug\BVL.csproj.GenerateResource.Cache
+C:\Users\ayalashx\Desktop\BVL\BVL\obj\Debug\he\BVL.resources.dll
+C:\Users\ayalashx\Desktop\BVL\BVL\obj\Debug\BVL.dll
+C:\Users\ayalashx\Desktop\BVL\BVL\obj\Debug\BVL.pdb
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\bin\BVL.dll.config
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\bin\BVL.dll
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\bin\BVL.pdb
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\bin\he\BVL.resources.dll
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\bin\EntityFramework.dll
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\bin\EntityFramework.SqlServer.dll
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\bin\System.Web.Helpers.dll
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\bin\System.Web.Mvc.dll
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\bin\System.Web.Razor.dll
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\bin\System.Web.Webpages.Deployment.dll
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\bin\System.Web.Webpages.dll
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\bin\System.Web.Webpages.Razor.dll
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\bin\EntityFramework.xml
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\bin\EntityFramework.SqlServer.xml
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\bin\System.Web.Razor.xml
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\bin\System.Web.Webpages.xml
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\bin\System.Web.Webpages.Deployment.xml
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\bin\System.Web.Webpages.Razor.xml
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\bin\System.Web.Helpers.xml
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\bin\System.Web.Mvc.xml
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\obj\Debug\BVL.csprojAssemblyReference.cache
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\obj\Debug\BVL.Resource.RBeitVaad.resources
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\obj\Debug\BVL.Resource.RHome.resources
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\obj\Debug\BVL.Resource.RAbout.resources
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\obj\Debug\BVL.Resource.RBeitVaad.he.resources
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\obj\Debug\BVL.Resource.RHome.he.resources
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\obj\Debug\BVL.Resource.RAbout.he.resources
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\obj\Debug\BVL.csproj.GenerateResource.cache
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\obj\Debug\BVL.csproj.CoreCompileInputs.cache
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\obj\Debug\he\BVL.resources.dll
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\obj\Debug\BVL.csproj.CopyComplete
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\obj\Debug\BVL.dll
+C:\Users\ayalash\OneDrive - Intel Corporation\Desktop\personal\Site\Site\BVL\BVL\obj\Debug\BVL.pdb

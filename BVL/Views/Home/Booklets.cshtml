@@ -1,0 +1,50 @@
+﻿@model IEnumerable<BVL.Models.Books>
+@{
+    ViewBag.Title = BVL.Resource.RHome.Booklets;
+}
+
+<h2>Booklets</h2>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-12">
+                
+                <div class="col-xs-12 col-md-3 "  >
+                    @using (Ajax.BeginForm("foundbooklets", new AjaxOptions { }))
+                    {
+                        <div>
+                            <h3 style="font-family: 'Heebo';color:brown">
+                                @BVL.Resource.RBeitVaad.category
+                            </h3>
+                            <select style="font-family: 'Heebo';width:120px;text-decoration-color:#7e0a0a" name="subjects" onchange="this.form.submit()">
+                                @foreach (var item2 in ViewBag.subjects)
+                                {
+                                    <option>@item2.subjectName</option>
+                                }
+                            </select>
+                        </div>
+                    }
+                </div>
+                <div style="font-family: 'Heebo';" id="pnl" class="col-xs-12 col-md-6">
+                    @foreach (var item in Model)
+                    {
+                        <p>
+                            <a class="active col-md-2" href='@Url.Action("Download", "Home", new { FileId = @Html.DisplayFor(modelItem => item.Id) })'><img style="width:20px;height:20px" src="~/img/if_file-download_326639.png" /></a>
+                            <a href="@Html.DisplayFor(modelItem => item.bookShow)">@Html.DisplayFor(modelItem => item.bookName)</a>
+                        </p>
+                    }
+                </div>
+
+            </div>
+            </div>
+    </div>
+</div>
+
+
+
+                    
+
+
+
+
+

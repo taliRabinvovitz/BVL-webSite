@@ -1,0 +1,30 @@
+﻿@model IEnumerable<BVL.Models.AudioAndMovieModel>
+
+@{
+    ViewBag.Title = BVL.Resource.RHome.Movie;
+}
+
+
+@foreach (var item in Model)
+{
+
+    <div id="about">
+        <div class="container">
+            <div class="row"> 
+                <div class="col-xs-12 col-md-6">
+                    <video controls="controls">
+                        <source src="@Html.DisplayFor(modelItem => item.audioOrMovie)" type="video/mp4" />
+                    </video>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                    <div class="about-text">
+                        <h5>
+                            
+                        </h5>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+}

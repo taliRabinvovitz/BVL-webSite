@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DatabaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Audio">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="audio1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="subject" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="kategory" Type="Int32" />
+    <NavigationProperty Name="Subjects" Relationship="Self.fk_subjectid_id" FromRole="Audio" ToRole="Subjects" />
+  </EntityType>
+  <EntityType Name="Avrech">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="children" Type="Int32" Nullable="false" />
+    <Property Name="image" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="EnglishDetails" Relationship="Self.fk_englishdetails_id" FromRole="Avrech" ToRole="EnglishDetails" />
+    <NavigationProperty Name="HebroDetails" Relationship="Self.fk_hebrodetails_id" FromRole="Avrech" ToRole="HebroDetails" />
+  </EntityType>
+  <EntityType Name="Books">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="bookSubject" Type="Int32" />
+    <Property Name="bookName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="bookUrl" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="bookShow" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Subjects" Relationship="Self.fk_idsubject" FromRole="Books" ToRole="Subjects" />
+    <NavigationProperty Name="Subjects1" Relationship="Self.SubjectToBook" FromRole="Books" ToRole="Subjects" />
+  </EntityType>
+  <EntityType Name="Movie">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="movie1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="subject" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="kategory" Type="Int32" />
+    <NavigationProperty Name="Subjects" Relationship="Self.fk_subject_id" FromRole="Movie" ToRole="Subjects" />
+  </EntityType>
+  <EntityType Name="Subjects">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="subjectName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Audio" Relationship="Self.fk_subjectid_id" FromRole="Subjects" ToRole="Audio" />
+    <NavigationProperty Name="Books" Relationship="Self.fk_idsubject" FromRole="Subjects" ToRole="Books" />
+    <NavigationProperty Name="Movie" Relationship="Self.fk_subject_id" FromRole="Subjects" ToRole="Movie" />
+    <NavigationProperty Name="Books1" Relationship="Self.SubjectToBook" FromRole="Subjects" ToRole="Books" />
+  </EntityType>
+  <EntityType Name="EnglishDetails">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Ename" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Ename" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Edescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Avrech" Relationship="Self.fk_englishdetails_id" FromRole="EnglishDetails" ToRole="Avrech" />
+  </EntityType>
+  <EntityType Name="HebroDetails">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Hname" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Hname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Hdescriptio" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Avrech" Relationship="Self.fk_hebrodetails_id" FromRole="HebroDetails" ToRole="Avrech" />
+  </EntityType>
+  <Association Name="fk_subjectid_id">
+    <End Role="Subjects" Type="Self.Subjects" Multiplicity="0..1" />
+    <End Role="Audio" Type="Self.Audio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subjects">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Audio">
+        <PropertyRef Name="kategory" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_englishdetails_id">
+    <End Role="Avrech" Type="Self.Avrech" Multiplicity="1" />
+    <End Role="EnglishDetails" Type="Self.EnglishDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Avrech">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="EnglishDetails">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_hebrodetails_id">
+    <End Role="Avrech" Type="Self.Avrech" Multiplicity="1" />
+    <End Role="HebroDetails" Type="Self.HebroDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Avrech">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="HebroDetails">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_idsubject">
+    <End Role="Subjects" Type="Self.Subjects" Multiplicity="0..1" />
+    <End Role="Books" Type="Self.Books" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subjects">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Books">
+        <PropertyRef Name="bookSubject" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_subject_id">
+    <End Role="Subjects" Type="Self.Subjects" Multiplicity="0..1" />
+    <End Role="Movie" Type="Self.Movie" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subjects">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Movie">
+        <PropertyRef Name="kategory" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="SubjectToBook">
+    <End Role="Books" Type="Self.Books" Multiplicity="*" />
+    <End Role="Subjects" Type="Self.Subjects" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="DatabaseEntities3" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Audio" EntityType="Self.Audio" />
+    <EntitySet Name="Avrech" EntityType="Self.Avrech" />
+    <EntitySet Name="Books" EntityType="Self.Books" />
+    <EntitySet Name="Movie" EntityType="Self.Movie" />
+    <EntitySet Name="Subjects" EntityType="Self.Subjects" />
+    <EntitySet Name="EnglishDetails" EntityType="Self.EnglishDetails" />
+    <EntitySet Name="HebroDetails" EntityType="Self.HebroDetails" />
+    <AssociationSet Name="fk_subjectid_id" Association="Self.fk_subjectid_id">
+      <End Role="Subjects" EntitySet="Subjects" />
+      <End Role="Audio" EntitySet="Audio" />
+    </AssociationSet>
+    <AssociationSet Name="fk_englishdetails_id" Association="Self.fk_englishdetails_id">
+      <End Role="Avrech" EntitySet="Avrech" />
+      <End Role="EnglishDetails" EntitySet="EnglishDetails" />
+    </AssociationSet>
+    <AssociationSet Name="fk_hebrodetails_id" Association="Self.fk_hebrodetails_id">
+      <End Role="Avrech" EntitySet="Avrech" />
+      <End Role="HebroDetails" EntitySet="HebroDetails" />
+    </AssociationSet>
+    <AssociationSet Name="fk_idsubject" Association="Self.fk_idsubject">
+      <End Role="Subjects" EntitySet="Subjects" />
+      <End Role="Books" EntitySet="Books" />
+    </AssociationSet>
+    <AssociationSet Name="fk_subject_id" Association="Self.fk_subject_id">
+      <End Role="Subjects" EntitySet="Subjects" />
+      <End Role="Movie" EntitySet="Movie" />
+    </AssociationSet>
+    <AssociationSet Name="SubjectToBook" Association="Self.SubjectToBook">
+      <End Role="Books" EntitySet="Books" />
+      <End Role="Subjects" EntitySet="Subjects" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,44 @@
+﻿
+@*<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.speaker)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.privateSubject)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.generalSubject)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.audioOrMovie)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.speaker)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.privateSubject)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.generalSubject)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.audioOrMovie)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>*@

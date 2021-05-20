@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DatabaseModelStoreContainer" CdmEntityContainer="DatabaseEntities3">
+    <EntitySetMapping Name="Audio">
+      <EntityTypeMapping TypeName="DatabaseModel.Audio">
+        <MappingFragment StoreEntitySet="Audio">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="audio1" ColumnName="audio" />
+          <ScalarProperty Name="subject" ColumnName="subject" />
+          <ScalarProperty Name="kategory" ColumnName="kategory" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Avrech">
+      <EntityTypeMapping TypeName="DatabaseModel.Avrech">
+        <MappingFragment StoreEntitySet="Avrech">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="children" ColumnName="children" />
+          <ScalarProperty Name="image" ColumnName="image" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Books">
+      <EntityTypeMapping TypeName="DatabaseModel.Books">
+        <MappingFragment StoreEntitySet="Books">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="bookSubject" ColumnName="bookSubject" />
+          <ScalarProperty Name="bookName" ColumnName="bookName" />
+          <ScalarProperty Name="bookUrl" ColumnName="bookUrl" />
+          <ScalarProperty Name="bookShow" ColumnName="bookShow" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Movie">
+      <EntityTypeMapping TypeName="DatabaseModel.Movie">
+        <MappingFragment StoreEntitySet="Movie">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="movie1" ColumnName="movie" />
+          <ScalarProperty Name="subject" ColumnName="subject" />
+          <ScalarProperty Name="kategory" ColumnName="kategory" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Subjects">
+      <EntityTypeMapping TypeName="DatabaseModel.Subjects">
+        <MappingFragment StoreEntitySet="Subjects">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="subjectName" ColumnName="subjectName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EnglishDetails">
+      <EntityTypeMapping TypeName="DatabaseModel.EnglishDetails">
+        <MappingFragment StoreEntitySet="EnglishDetails">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Ename" ColumnName="Ename" />
+          <ScalarProperty Name="Edescription" ColumnName="Edescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HebroDetails">
+      <EntityTypeMapping TypeName="DatabaseModel.HebroDetails">
+        <MappingFragment StoreEntitySet="HebroDetails">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Hname" ColumnName="Hname" />
+          <ScalarProperty Name="Hdescriptio" ColumnName="Hdescriptio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="SubjectToBook" TypeName="DatabaseModel.SubjectToBook" StoreEntitySet="SubjectToBook">
+      <EndProperty Name="Books">
+        <ScalarProperty Name="Id" ColumnName="bookId" />
+      </EndProperty>
+      <EndProperty Name="Subjects">
+        <ScalarProperty Name="Id" ColumnName="subjectId" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

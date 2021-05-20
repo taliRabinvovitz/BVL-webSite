@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    
+
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="/img/favicon.ico" type="/image/x-icon"/>
+    <link rel="apple-touch-icon" href="/img/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/apple-touch-icon-114x114.png"/>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="/fonts/font-awesome/css/font-awesome.css"/>
+
+    <!-- Stylesheet
+        ================================================== -->
+    <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/prettyPhoto.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'/>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'/>
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+</head>
+<body> 
+
+    <!-- Navigation -->
+    <div id="nav">
+        <nav class="navbar navbar-custom navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-main-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <li class="hidden"> <a href="#page-top"></a> </li>
+                        <li><a style="font-family: 'Heebo';" class="active" href="/Home/Index">@BVL.Resource.RHome.Home</a></li>
+                        <li><a style="font-family: 'Heebo';" href="/Home/OpenAbout">@BVL.Resource.RHome.About</a></li>
+                        <li><a style="font-family: 'Heebo';" href="/Home/BeitVaad">@BVL.Resource.RHome.BeisVaadLachachomim</a></li>
+                        <li><a style="font-family: 'Heebo';" href="/Home/VelakachtiEtchem">@BVL.Resource.RHome.VelakachtiEtchem</a></li>
+                        <li><a style="font-family: 'Heebo';" href="/Home/TorahLeasons">@BVL.Resource.RHome.ToraLeasons</a></li>
+                        <li style="font-family: 'Heebo';"> @Html.ActionLink(@BVL.Resource.RHome.HoldTorah, "HoldTorah", "Home", new { area = "" }, new { @class = "navbar-brand" })</li>
+                    </ul>
+                        @*<p>
+                            @{
+                                foreach (var i in BVL.Models.LanguageMang.AvailableLanguages)
+                                {
+                                    @Html.ActionLink(i.LanguageFullName, "ChangeLanguage", "Home", new { lang = i.LanguageCultureName }, null) <text> </text>
+                                }
+                            }
+                        </p>*@
+                   
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+
+    <div class="container body-content" style="width:100%;">
+        @RenderBody()
+    </div>
+    <footer>
+        <div id="footer" style="background-color:#988454;position:relative;bottom:0px;
+    left:0px;
+    width:100%;
+    color:#CCC;padding:8px;">
+            <div class="container text-center">
+                <div class="fnav">
+                    <span><i class="fa fa-phone" style="padding:6px"></i>+1 3477 032 852</span>
+                    <span>             </span>
+                    <span><i class="fa fa-phone" style="padding:6px"></i>+972 533 113 713</span>
+                    <span>             </span>
+                    <span><i class="fa fa-envelope-o" style="padding:6px"></i> contact@beitvaadlechachamim.org</span>
+                    @*<div class="pull-right" style="padding:10px">*@
+                    <div>
+                        @{
+                            foreach (var i in BVL.Models.LanguageMang.AvailableLanguages)
+                            {
+                                @Html.ActionLink(i.LanguageFullName, "ChangeLanguage", "Home", new { lang = i.LanguageCultureName }, null) <text> </text>
+                            }
+                        }
+                    </div>
+
+                </div>
+            </div>
+        </div>
+       
+    </footer> 
+        <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+        <script src="~/Scripts/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+        <script type="text/javascript" src="/js/jquery.1.11.1.js"></script>
+        <script type="text/javascript" src="/js/bootstrap.js"></script>
+        <script type="text/javascript" src="/js/SmoothScroll.js"></script>
+        <script type="text/javascript" src="/js/easypiechart.js"></script>
+        <script type="text/javascript" src="/js/jquery.prettyPhoto.js"></script>
+        <script type="text/javascript" src="/js/jquery.isotope.js"></script>
+        <script type="text/javascript" src="/js/jquery.counterup.js"></script>
+        <script type="text/javascript" src="/js/waypoints.js"></script>
+        @*<script type="text/javascript" src="/js/jqBootstrapValidation.js"></script>*@
+        @*<script type="text/javascript" src="/js/contact_me.js"></script>*@
+        <script type="text/javascript" src="/js/main.js"></script>
+        <script src="/js/jquery.min.js"></script>
+            <script src="/js/jquery.backtotop.js"></script>
+            <script src="/js/jquery.mobilemenu.js"></script>
+            <script src="/js/jquery.flexslider-min.js"></script>
+</body>
+</html>

@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{85FE54B7-8CE4-4FD1-B538-A4FD9EDA50B6}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BVL</RootNamespace>
+    <AssemblyName>BVL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.1.2\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.1.2\lib\net45\System.Web.Webpages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Deployment">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.1.2\lib\net45\System.Web.Webpages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.1.2\lib\net45\System.Web.Webpages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.1.2\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.1.2\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\Database.mdf" />
+    <Content Include="App_Data\Database_log.ldf">
+      <DependentUpon>Database.mdf</DependentUpon>
+    </Content>
+    <Content Include="audio\זרע אברהם השלמה.mp3" />
+    <Content Include="audio\זרע_אברהם_סיום.mp3" />
+    <Content Include="audio\כהונת פנחס א.mp3" />
+    <Content Include="audio\לא נתכהן פנחס עד ששם שלום בין השבטים.mp3" />
+    <Content Include="audio\מגילת בית המקדש, פתיחה..mp3" />
+    <Content Include="audio\רב  חיים שפירא שואלים באורים ותומים.mp3" />
+    <Content Include="audio\שיעור ערי מקלט.mp3" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\prettyPhoto.css" />
+    <Content Include="css\style.css" />
+    <Content Include="fonts\font-awesome\css\font-awesome.css" />
+    <Content Include="fonts\font-awesome\css\font-awesome.min.css" />
+    <Content Include="fonts\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="fonts\font-awesome\less\animated.less" />
+    <Content Include="fonts\font-awesome\less\bordered-pulled.less" />
+    <Content Include="fonts\font-awesome\less\core.less" />
+    <Content Include="fonts\font-awesome\less\fixed-width.less" />
+    <Content Include="fonts\font-awesome\less\font-awesome.less" />
+    <Content Include="fonts\font-awesome\less\icons.less" />
+    <Content Include="fonts\font-awesome\less\larger.less" />
+    <Content Include="fonts\font-awesome\less\list.less" />
+    <Content Include="fonts\font-awesome\less\mixins.less" />
+    <Content Include="fonts\font-awesome\less\path.less" />
+    <Content Include="fonts\font-awesome\less\rotated-flipped.less" />
+    <Content Include="fonts\font-awesome\less\stacked.less" />
+    <Content Include="fonts\font-awesome\less\variables.less" />
+    <Content Include="fonts\font-awesome\scss\font-awesome.scss" />
+    <Content Include="fonts\font-awesome\scss\_animated.scss" />
+    <Content Include="fonts\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="fonts\font-awesome\scss\_core.scss" />
+    <Content Include="fonts\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="fonts\font-awesome\scss\_icons.scss" />
+    <Content Include="fonts\font-awesome\scss\_larger.scss" />
+    <Content Include="fonts\font-awesome\scss\_list.scss" />
+    <Content Include="fonts\font-awesome\scss\_mixins.scss" />
+    <Content Include="fonts\font-awesome\scss\_path.scss" />
+    <Content Include="fonts\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="fonts\font-awesome\scss\_stacked.scss" />
+    <Content Include="fonts\font-awesome\scss\_variables.scss" />
+    <Content Include="fonts\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="img\aboutpage.jpg" />
+    <Content Include="img\avrechim\10.JPG" />
+    <Content Include="img\avrechim\11.JPG" />
+    <Content Include="img\avrechim\12.jpg" />
+    <Content Include="img\avrechim\13.jpg" />
+    <Content Include="img\avrechim\14.jpg" />
+    <Content Include="img\avrechim\15.jpg" />
+    <Content Include="img\avrechim\16.jpg" />
+    <Content Include="img\avrechim\17.jpg" />
+    <Content Include="img\avrechim\18.jpg" />
+    <Content Include="img\avrechim\19.jpg" />
+    <Content Include="img\avrechim\2.jpg" />
+    <Content Include="img\avrechim\20.jpg" />
+    <Content Include="img\avrechim\21.jpg" />
+    <Content Include="img\avrechim\22.jpg" />
+    <Content Include="img\avrechim\23.jpg" />
+    <Content Include="img\avrechim\24.jpg" />
+    <Content Include="img\avrechim\25.jpg" />
+    <Content Include="img\avrechim\26.jpg" />
+    <Content Include="img\avrechim\27.jpg" />
+    <Content Include="img\avrechim\28.jpg" />
+    <Content Include="img\avrechim\29.jpg" />
+    <Content Include="img\avrechim\3.JPG" />
+    <Content Include="img\avrechim\30.jpg" />
+    <Content Include="img\avrechim\31.jpg" />
+    <Content Include="img\avrechim\32.jpg" />
+    <Content Include="img\avrechim\33.jpg" />
+    <Content Include="img\avrechim\34.jpg" />
+    <Content Include="img\avrechim\35.jpg" />
+    <Content Include="img\avrechim\36.jpg" />
+    <Content Include="img\avrechim\37.jpg" />
+    <Content Include="img\avrechim\38.jpg" />
+    <Content Include="img\avrechim\39.jpg" />
+    <Content Include="img\avrechim\4.JPG" />
+    <Content Include="img\avrechim\40.jpg" />
+    <Content Include="img\avrechim\41.jpg" />
+    <Content Include="img\avrechim\42.jpg" />
+    <Content Include="img\avrechim\43.jpg" />
+    <Content Include="img\avrechim\44.jpg" />
+    <Content Include="img\avrechim\45.jpg" />
+    <Content Include="img\avrechim\46.jpg" />
+    <Content Include="img\avrechim\47.jpg" />
+    <Content Include="img\avrechim\48.jpg" />
+    <Content Include="img\avrechim\49.jpg" />
+    <Content Include="img\avrechim\5.JPG" />
+    <Content Include="img\avrechim\50.jpg" />
+    <Content Include="img\avrechim\51.jpg" />
+    <Content Include="img\avrechim\52.JPG" />
+    <Content Include="img\avrechim\53.jpg" />
+    <Content Include="img\avrechim\54.jpg" />
+    <Content Include="img\avrechim\55.JPG" />
+    <Content Include="img\avrechim\56.JPG" />
+    <Content Include="img\avrechim\57.JPG" />
+    <Content Include="img\avrechim\58.JPG" />
+    <Content Include="img\avrechim\6.JPG" />
+    <Content Include="img\avrechim\7.JPG" />
+    <Content Include="img\avrechim\8.JPG" />
+    <Content Include="img\avrechim\9.JPG" />
+    <Content Include="img\comments\comment1.jpg" />
+    <Content Include="img\comments\comment2.jpg" />
+    <Content Include="img\comments\comment3.jpg" />
+    <Content Include="img\comments\comment4.JPG" />
+    <Content Include="img\if_file-download_326639.png" />
+    <Content Include="img\IMG_0043.JPG" />
+    <Content Include="img\IMG_29.jpg" />
+    <Content Include="img\index\11111.jpg" />
+    <Content Include="img\index\11112.jpg" />
+    <Content Include="img\index\index1.jpg" />
+    <Content Include="img\index\index2.jpg" />
+    <Content Include="img\index\index3.jpg" />
+    <Content Include="img\index\index4.jpg" />
+    <Content Include="img\index\index5.jpg" />
+    <Content Include="img\index\index6.jpg" />
+    <Content Include="img\index\index7.jpg" />
+    <Content Include="img\Pan-Tera-Flags-Israel-Flag.ico" />
+    <Content Include="img\Pan-Tera-Flags-USA-Flag.ico" />
+    <Content Include="js\jquery.backtotop.js" />
+    <Content Include="js\jquery.flexslider-min.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jquery.mobilemenu.js" />
+    <Content Include="mail\contact_me.php">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="FormMail.pl" />
+    <Content Include="booklets\א. ויעודם פסח עה.pdf" />
+    <Content Include="booklets\ב. ויעודם - שבועות א עו.pdf" />
+    <Content Include="booklets\ב. ויעודם - שבועות ב עו_1.pdf" />
+    <Content Include="booklets\ג. קובץ מאחד - חנוכה עו.pdf" />
+    <Content Include="booklets\ד. ויעודם פורים עו.pdf" />
+    <Content Include="booklets\ה. ויעודם - פסח עו.pdf" />
+    <Content Include="booklets\ו. ויעודם - חנוכה עז_1.pdf" />
+    <Content Include="booklets\ז. ויעודם פורים עז_1.pdf" />
+    <Content Include="booklets\ח. ויעודם - שבועות עז.pdf" />
+    <Content Include="booklets\ט. ויעודם - תשרי עח.pdf" />
+    <Content Include="booklets\י. ויעודם - פורים עח.pdf" />
+    <Content Include="booklets\יא - ויעודם פסח עח.pdf" />
+    <Content Include="booklets\א. בית ועד לחכמים כסלו עה.pdf" />
+    <Content Include="booklets\בית ועד רבעון ב חצי א.pdf" />
+    <Content Include="booklets\בית ועד רבעון ב חצי ב-2.pdf" />
+    <Content Include="booklets\ג. בית ועד לחכמים חשון עו.pdf" />
+    <Content Include="booklets\ד. בית ועד לחכמים שבט עו.pdf" />
+    <Content Include="booklets\ה. בית ועד לחכמים - ניסן עו.pdf" />
+    <Content Include="booklets\ו. בית ועד לחכמים - תשרי עז .pdf" />
+    <Content Include="booklets\ז. בית ועד לחכמים - ניסן עז .pdf" />
+    <Content Include="booklets\ח. בית ועד לחכמים - כסלו עח.pdf" />
+    <Content Include="booklets\יד - ויעודם שבועות עח.pdf" />
+    <EntityDeploy Include="Models\BVLDBmodel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>BVLDBmodel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\BVLDBmodel.edmx.diagram">
+      <DependentUpon>BVLDBmodel.edmx</DependentUpon>
+    </Content>
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\contact_me.js" />
+    <Content Include="js\easypiechart.js" />
+    <Content Include="js\jqBootstrapValidation.js" />
+    <Content Include="js\jquery.1.11.1.js" />
+    <Content Include="js\jquery.counterup.js" />
+    <Content Include="js\jquery.isotope.js" />
+    <Content Include="js\jquery.prettyPhoto.js" />
+    <Content Include="js\main.js" />
+    <Content Include="js\SmoothScroll.js" />
+    <Content Include="js\waypoints.js" />
+    <Content Include="Models\BVLDBmodel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>BVLDBmodel.edmx</DependentUpon>
+      <LastGenOutput>BVLDBmodel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\BVLDBmodel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>BVLDBmodel.edmx</DependentUpon>
+      <LastGenOutput>BVLDBmodel.cs</LastGenOutput>
+    </Content>
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\RAbout.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MyController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Audio.cs">
+      <DependentUpon>BVLDBmodel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AudioAndMovieModel.cs" />
+    <Compile Include="Models\Avrech.cs">
+      <DependentUpon>BVLDBmodel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Books.cs">
+      <DependentUpon>BVLDBmodel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\BVLDBmodel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BVLDBmodel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\BVLDBmodel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BVLDBmodel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\BVLDBmodel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BVLDBmodel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\EmailFormModel.cs" />
+    <Compile Include="Models\EnglishDetails.cs">
+      <DependentUpon>BVLDBmodel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\HebroDetails.cs">
+      <DependentUpon>BVLDBmodel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\LanguageMang.cs" />
+    <Compile Include="Models\Movie.cs">
+      <DependentUpon>BVLDBmodel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Repository.cs" />
+    <Compile Include="Models\Subjects.cs">
+      <DependentUpon>BVLDBmodel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resource\RAbout.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RAbout.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resource\RAbout.he.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RAbout.he.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resource\RBeitVaad.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RBeitVaad.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resource\RBeitVaad.he.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RBeitVaad.he.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resource\RHome.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RHome.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resource\RHome.he.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RHome.he.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\web.config" />
+    <Content Include="packages.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\BeitVaad.cshtml" />
+    <Content Include="Views\Home\TorahLeasons.cshtml" />
+    <Content Include="Views\Home\HoldTorah.cshtml" />
+    <Content Include="Views\Home\Booklets.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Audio.cshtml" />
+    <Content Include="Views\Home\Audio.cshtml" />
+    <Content Include="Views\Home\Movie.cshtml" />
+    <Content Include="Views\Home\VelakachtiEtchem.cshtml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\" />
+    <Folder Include="Views\HomeController\" />
+    <Folder Include="Views\SendMailer\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource\RBeitVaad.he.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>RBeitVaad.he.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\RBeitVaad.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>RBeitVaad.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\RHome.he.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>RHome.he.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\RHome.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>RHome.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\RAbout.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>RAbout.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\RAbout.he.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>RAbout.he.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>24266</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:24266/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

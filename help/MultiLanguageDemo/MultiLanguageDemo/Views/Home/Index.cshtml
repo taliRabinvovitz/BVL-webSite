@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = @RHome.Title;
+}
+
+<div class="jumbotron text-center">
+    <h1>@RHome.Title</h1>
+    <p class="lead">@RHome.Subtitle</p>
+</div>
+
+<div class="row">
+    <div class="col-md-12 text-center">
+        <p class="text-center">
+        <img src="@Url.GetImage("Welcome.jpg")" alt="Welcome"/>
+        </p>
+        <p>@RHome.Content</p>      
+    </div>
+</div>

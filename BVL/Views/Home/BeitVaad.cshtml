@@ -1,0 +1,54 @@
+﻿@using BVL.Controllers
+@model IEnumerable<Person>
+
+@{
+    ViewBag.Title = "Avrechim";
+}
+
+    @foreach (var item in Model)
+    {
+
+        <div id="about">
+            <div class="container">     
+                <div class="row" style="position: relative;">
+                    @*@Html.DisplayFor(model => Repository.Getimage(item.image))*@
+                    <div class="col-xs-12 col-md-8" style="border:solid;border-color:#62110f">
+                       
+                        <div class="col-xs-12 col-md-6"> <img src="@Html.DisplayFor(modelItem => item.image)"  class="img-responsive" alt="" /> </div>
+                        <div class="col-xs-12 col-md-6">
+                            <div class="about-text">
+                                <h3 style="font-family: 'Heebo';">
+                                    @BVL.Resource.RBeitVaad.name:
+                                    @Html.DisplayFor(modelItem => item.name)<br />
+                                    @BVL.Resource.RBeitVaad.age:
+                                    @Html.DisplayFor(modelItem => item.age)<br />
+                                    @BVL.Resource.RBeitVaad.childrenNum:
+                                    @Html.DisplayFor(modelItem => item.children)<br />
+                               @* @BVL.Resource.RBeitVaad.description:*@ 
+                                    @Html.DisplayFor(modelItem => item.description)
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+       
+            @*<td>
+               image:
+            </td>
+            <td>
+               name: @Html.DisplayFor(modelItem => item.name)<br />
+               age: @Html.DisplayFor(modelItem => item.age) <br />
+               history: @Html.DisplayFor(modelItem => item.history)<br />
+            </td>*@
+        
+    }
+
+
+
+
+

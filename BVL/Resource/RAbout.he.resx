@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>אודות</value>
+  </data>
+  <data name="about1" xml:space="preserve">
+    <value>בית המדרש "בית ועד לחכמים" נוסד בעיה"ק ירושלים לפני כ13 שנה, על ידי עשרה תלמידי חכמים, מתוך חזון להפכו ל"בית ועד לחכמים" כמשמעו, מקום ועד לת"ח, גדולי תורה מרביצי תורה מורי הוראה ומחברי ספרים.
+במהלך השנים, התאספה קבוצת עילית של תלמידי חכמים מרחבי ירושלים לביהמ"ד.
+רבים מהלומדים הינם מחברי ספרים, מגידי שיעורים, מורי הוראה, ובעיקר מרביצי תורה בעבר ובהווה בישיבות החשובות כדוגמת מיר, חברון, עטרת ישראל, באר יעקב ועוד.
+הכולל נחשב לאחד ממקומות התורה המיוחדים בעיה"ק, כאשר ת"ח חשובים מתדפקים על דלתו, ומבקשים להצטרף ולהיות חלק מבית המדרש.
+בית ועד לחכמים הוא מבתי המדרש החשובים, הקרובים לליבם של גדולי הדור: הגאון רבי יעקב אדלשטיין זצ"ל, הגאון רבי משה שפירא זצ"ל, ויבדלו לחיים טובים הגאון רבי ברוך מרדכי אזרחי שליט"א ראש ישיבת "עטרת ישראל" והגאון רבי ברוך דוב פוברסקי שליט"א ראש ישיבת "פוניבז'", המתמסרים למען הכולל ולומדיו</value>
+  </data>
+  <data name="abouttitle2" xml:space="preserve">
+    <value>התאספות תלמידי חכמים</value>
+  </data>
+  <data name="abouttitlt" xml:space="preserve">
+    <value>הכולל</value>
+  </data>
+  <data name="Goal" xml:space="preserve">
+    <value>התורה כמטרה</value>
+  </data>
+  <data name="InNumbers" xml:space="preserve">
+    <value>הכולל במספרים</value>
+  </data>
+  <data name="KollelName" xml:space="preserve">
+    <value>בית וועד לחכמים</value>
+  </data>
+  <data name="learning1" xml:space="preserve">
+    <value>הלימוד בכולל</value>
+  </data>
+  <data name="learning2" xml:space="preserve">
+    <value>ללמוד וללמד</value>
+  </data>
+  <data name="learning3" xml:space="preserve">
+    <value>הלומדים ב "בית ועד לחכמים" הינם תלמידי חכמים מבוגרים שכבר מילאו כרסם בש"ס ובפוסקים. משום כך הלימוד בכולל הינו בדרך "ליבו חפץ", בו כל אחד מן הלומדים וכל "חבורה" לומדים את שברצונם ללמוד, ובמשך הזמן נוצרו בבית המדרש "חברותות" ו"חבורות" רבות העוסקות בכל מקצועות הש"ס
+מלבד הלימוד הכללי, נמסרים בבית המדרש כסדר שיעורים בנושאים שונים, ע"י הלומדים. השיעורים כללו במשך השנים עיון בהלכות שונות כגון: תלמוד תורה, כיבוד אב ואם, קריאת שמע, תפילה, ספר תורה,צדקה, מזוזה ועוד</value>
+  </data>
+  <data name="learning4" xml:space="preserve">
+    <value>גם הלכות "מוכרות" פחות נלמדו במסגרת זו, לדוגמא, בתקופה מסוימת, בעידוד הגאון רבי משה שפירא זצ"ל, נמסרו סדרת שיעורים על חובת ההשתדלות והבטחון וגדריה על פי ההלכה. השיעורים ניתנים ע"י הלומדים בעצמם, מה שהפך את הכולל מקיבוץ לומדים בודדים, לחבורה מגובשת הלומדת באחדות ובדיבוק חברים
+עד היום, בית המדרש הוציא לאור שמונה חוברות של חידושי תורה, בשם "בית ועד לחכמים" בשלל הנושאים הנלמדים בבית המדרש. ומלבד זה מידי ערב חג מופיע קובץ חידו"ת בענייני דיומא בשם "ויעודם", הקובץ מתפרסם בארץ ישראל ובמאנסי ניו יורק</value>
+  </data>
+  <data name="RoshKolel" xml:space="preserve">
+    <value>ראש הכולל</value>
+  </data>
+  <data name="RoshKolel2" xml:space="preserve">
+    <value>להגדיל תורה ולהאדירה</value>
+  </data>
+  <data name="RoshKolel3" xml:space="preserve">
+    <value>ראש הכולל רבי חיים מרדכי שפירא שליט"א נולד וגדל בירושלים, למד בישיבת עטרת ישראל וידוע כאחד מתלמידיו הקרובים, של ראש הישיבה הגאון רבי ברוך מרדכי אזרחי שליט"א
+לאחר נישואיו עם בתו של אחד מחשובי הדיינים בארה"ק הגאון רבי שלמה דיכובסקי שליט"א, למד בבית המדרש ברמת השרון של הגאון רבי יעקב אדלשטיין זצ"ל, ולאחר מכן בבית המדרש "טהרות" בירושלים שם הוא לומד עד היום בסדר שני
+לאורך השנים הוא שמר על קשר קרוב ומיוחד עם הגאון רבי יעקב אדלשטיין זצ"ל, ועם שאר בשרו הגאון רבי משה שפירא זצ"ל שקירבוהו וחיבבוהו מאד
+בנוסף, עוד המוקדמות בישיבה, ר' חיים מרדכי חיבר והוציא לאור קבצים שונים, כשהמפורסם שבהם הינו ספר הזכרון ברית אברהם
+במהלך שנות לימודו בבית-מדרש טהרות משמש כאחד מכותבי "משניות דעת אליהו" על מסכת כלים היוצאות לאור ע"י הכולל, וכמו כן לקח חלק בעריכת והדרת ספרי ראשונים
+ב"בית ועד לחכמים", הרב שפירא חידש את מסירת השיעורים העמוקים בנ"ך, שיעורים היו נהוגים בעבר בבית "בריסק". חלק משיעוריו נערכו בקבצי "בית ועד לחכמים" שהוצאו לאור בבית המדרש</value>
+  </data>
+  <data name="more" xml:space="preserve">
+    <value>ראה המשך</value>
+  </data>
+  <data name="Recommendations" xml:space="preserve">
+    <value>מראות והמלצות</value>
+  </data>
+  <data name="num30_77" xml:space="preserve">
+    <value>מגיל 30 ועד  </value>
+  </data>
+  <data name="num700" xml:space="preserve">
+    <value>ילדים</value>
+  </data>
+  <data name="num87" xml:space="preserve">
+    <value>מקבלי מלגות</value>
+  </data>
+  <data name="num960000" xml:space="preserve">
+    <value>תקציב שנתי בדולרים</value>
+  </data>
+</root>
